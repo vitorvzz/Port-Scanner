@@ -83,6 +83,11 @@ Ele foi criado com fins educacionais para entender como funciona o processo de v
 - Como scanners detectam serviços expostos
 - Base do processo de recon em pentests
 
+---
+
+## Portas testadas
+O scanner testa portas comuns frequentemente encontradas durante testes de penetração reais, incluindo:
+
 - **FTP**: 21  
 - **SSH**: 22  
 - **Telnet**: 23  
@@ -105,6 +110,14 @@ A lista pode ser facilmente alterada diretamente no código.
 
 ---
 
+## Limitações
+- Varre apenas portas previamente definidas
+- Não identifica serviços ou banners
+- Não utiliza multi-threading
+- Desenvolvido exclusivamente para aprendizado
+  
+---
+
 ## Requisitos
 
 Python 3.x
@@ -115,13 +128,7 @@ Nenhuma biblioteca externa é necessária.
 
 ## Uso
 Execute o scanner com:
-bash
+```bash
 python3 port_scanner.py
-
+```
 ---
-
-## Limitações
-- Varre apenas portas previamente definidas
-- Não identifica serviços ou banners
-- Não utiliza multi-threading
-- Desenvolvido exclusivamente para aprendizado
