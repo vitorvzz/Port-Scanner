@@ -1,5 +1,3 @@
-# Port-Scanner
-
 # Python Port Scanner (Educational Project) 🇺🇸
 
 This project is a simple TCP port scanner developed in Python using the built-in `socket` library.  
